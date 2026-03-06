@@ -2,6 +2,7 @@ import React from 'react';
 import { Header } from './blocks/Header/Header';
 import { Hero } from './blocks/Hero/Hero';
 import { Advantages } from './blocks/Advantages/Advantages';
+import { Showcase } from './blocks/Showcase/Showcase';
 
 export default function App() {
   return (
@@ -9,6 +10,7 @@ export default function App() {
       <Header />
       <Hero />
       <Advantages />
+      <Showcase />
     </main>
   );
 }
