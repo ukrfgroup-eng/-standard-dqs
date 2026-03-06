@@ -5,6 +5,7 @@ import { Stats } from './blocks/Stats/Stats';
 import { Partners } from './blocks/Partners/Partners';
 import { Advantages } from './blocks/Advantages/Advantages';
 import { Showcase } from './blocks/Showcase/Showcase';
+import { Services } from './blocks/Services/Services';
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
       <Partners />
       <Advantages />
       <Showcase />
+      <Services />
     </main>
   );
 }
