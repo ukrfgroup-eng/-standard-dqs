@@ -6,6 +6,7 @@ import { Partners } from './blocks/Partners/Partners';
 import { Advantages } from './blocks/Advantages/Advantages';
 import { Showcase } from './blocks/Showcase/Showcase';
 import { Services } from './blocks/Services/Services';
+import { NeuralChat } from './blocks/NeuralChat/NeuralChat'; // <-- Новый импорт
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
       <Advantages />
       <Showcase />
       <Services />
+      <NeuralChat /> {/* <-- Добавляем блок здесь */}
     </main>
   );
 }
