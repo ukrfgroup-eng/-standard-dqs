@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: #0a0a0c;
+  color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+/* Контейнер для 3D трансформаций */
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+/* Эффект свечения для Matrix-элементов */
+.matrix-glow {
+  box-shadow: 0 0 20px rgba(37, 99, 235, 0.2);
+  border: 1px solid rgba(37, 99, 235, 0.3);
+}
+
+/* Кастомный скроллбар */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0a0c;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e1e24;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2563eb;
+}
